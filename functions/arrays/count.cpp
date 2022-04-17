@@ -1,1 +1,7 @@
-#define count(var) ((php_var) (var).keys.size())
+php_var count(php_var arr)
+{
+int q = 0;
+q = arr.keys.size();
+return q;
+}
+
