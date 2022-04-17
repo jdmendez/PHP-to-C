@@ -1,4 +1,4 @@
-php_var count(php_var arr)
+int count(php_var arr)
 {
 int q = 0;
 q = arr.keys.size();
