@@ -17,7 +17,7 @@
 		'fread' => array('cstdio', 'io/fread.cpp'),
 		'is_resource' => array(null, 'base/is_resource.cpp'),
 		'file_get_contents' => array('stdio.h', 'io/file_get_contents.cpp'),
-		'file' => array('stdio.h', array('arrays/array.cpp', 'string/explode.cpp', 'arrays/count.cpp', 'string/file.cpp')),
+		'file' => array('stdio.h', array('arrays/array.cpp', 'string/explode.cpp', 'io/count.cpp', 'string/file.cpp')),
 		'strstr' => array(null, 'string/strstr.cpp'),
 		'strpos' => array(null, 'string/strpos.cpp'),
 		'str_replace' => array(null, 'string/str_replace.cpp'),
